@@ -15,11 +15,6 @@ body {
     line-height: 1.5em;
     color: #444;
     background-color: #FAFAFA;
-    -webkit-animation: fade 600ms 1 ease-in-out;
-    -moz-animation: fade 600ms 1 ease-in-out;
-    -ms-animation: fade 600ms 1 ease-in-out;
-    -o-animation: fade 600ms 1 ease-in-out;
-    animation: fade 600ms 1 ease-in-out;
 }
 
 h1, h2, h3,
@@ -59,7 +54,6 @@ article header .meta {
 article header .meta a { text-decoration: none; }
 
 article:after {
-    content: '\00A7';
     display: block;
     text-align: center;
     font-weight: lighter;
@@ -176,7 +170,7 @@ a.goto {
 pre, img, figure, table {
     margin: 1em auto;
     overflow-x: auto;
-    border: 3px solid silver;
+    border: 1px solid silver;
 }
 
 table td, table th {
@@ -188,9 +182,10 @@ pre {
     font-family: monospace;
     font-size: 0.95em;
     line-height: 1.15em;
-    background-color: #F5F5F5;
+    background-color: #eee;
     padding: 0.5em;
     max-width: 100%;
+    white-space: pre;
 }
 
 figure * { border: none; margin: auto; padding: auto; }
