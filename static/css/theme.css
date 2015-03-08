@@ -2,26 +2,19 @@
 
 @import url(normalize.css);
 
-@-webkit-keyframes fade {from {opacity: 0;} to { opacity: 1;}}
-@-moz-keyframes    fade {from {opacity: 0;} to { opacity: 1;}}
-@-ms-keyframes     fade {from {opacity: 0;} to { opacity: 1;}}
-@-o-keyframes      fade {from {opacity: 0;} to { opacity: 1;}}
-@keyframes         fade {from {opacity: 0;} to { opacity: 1;}}
-
-
 body {
-    font-family: "Lucida Grande", "Gargi_1.7", "Garuda", "Jamrul", "Loma", "Malayalam", "Mukti Narrow", sans-serif;
+    font-family: "Century Schoolbook L", "Georgia", "Nimbus Roman No9 L", "Norasi", "Rekha", serif;
     font-size: 16px;
     line-height: 1.5em;
     color: #444;
-    background-color: #FAFAFA;
+    background-color: #F5F3EE;
 }
 
 h1, h2, h3,
 h4, h5, h6,
 .meta {
+    font-family: "Lucida Grande", "Gargi_1.7", "Garuda", "Jamrul", "Loma", "Malayalam", "Mukti Narrow", sans-serif;
     color: #222;
-    font-family: "Century Schoolbook L", "Georgia", "Nimbus Roman No9 L", "Norasi", "Rekha", serif;
     line-height: 1.1em;
 }
 
